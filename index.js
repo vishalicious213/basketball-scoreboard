@@ -1,5 +1,12 @@
 const homeScore = document.getElementById("home-score")
 const guestScore = document.getElementById("guest-score")
 
-homeScore.textContent = 0
-guestScore.textContent = 0
+homePoints = 0
+guestPoints = 0
+homeScore.textContent = homePoints
+guestScore.textContent = guestPoints
+
+function addHomeScore(points) {
+    homePoints += points
+    homeScore.textContent = homePoints
+}
