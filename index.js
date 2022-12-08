@@ -10,3 +10,8 @@ function addHomeScore(points) {
     homePoints += points
     homeScore.textContent = homePoints
 }
+
+function addGuestScore(points) {
+    guestPoints += points
+    guestScore.textContent = guestPoints
+}
