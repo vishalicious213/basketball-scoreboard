@@ -9,11 +9,34 @@ guestScore.textContent = guestPoints
 function addHomeScore(points) {
     homePoints += points
     homeScore.textContent = homePoints
+
+    if (homePoints > guestPoints) {
+        console.log('HOME')
+        homeScore.classList.add("leader")
+        guestScore.classList.remove("leader")
+    }
+
+    
+    if (guestPoints === homePoints) {
+        homeScore.classList.remove("leader")
+        guestScore.classList.remove("leader")
+    }
 }
 
 function addGuestScore(points) {
     guestPoints += points
     guestScore.textContent = guestPoints
+
+    if (guestPoints > homePoints) {
+        console.log("GUEST")
+        guestScore.classList.add("leader")
+        homeScore.classList.remove("leader")
+    }
+
+    if (guestPoints === homePoints) {
+        homeScore.classList.remove("leader")
+        guestScore.classList.remove("leader")
+    }
 }
 
 function resetScore() {
