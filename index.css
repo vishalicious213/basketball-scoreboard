@@ -15,10 +15,11 @@ body {
 .score {
     color: #F94F6D;
     background: #080001;
-    padding: .5rem 3rem;
+    padding: .75rem 0;
     border-radius: .5rem;
     margin-top: 0;
     margin-bottom: 1.5rem;
+    width: 10rem;
 }
 
 #home, #guest {
@@ -36,4 +37,18 @@ h3 {
 h4 {
     font-family: 'Orbitron', sans-serif;
     font-size: 5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-family: 'Orbitron', sans-serif;
+    color: #9AABD8;
+    background: #1B244A;
+    border: 1px solid #9AABD8;
+    border-radius: .25rem;
+    padding: .9rem;
 }
