@@ -2,6 +2,10 @@
 
 body {
     margin: 0;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -10,6 +14,8 @@ body {
     background: #1B244A;
     width: 575px;
     height: 385px;
+    border-radius: 1rem;
+    border: 5px solid white;
 }
 
 .score {
