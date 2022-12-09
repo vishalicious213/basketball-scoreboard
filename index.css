@@ -59,7 +59,7 @@ h4 {
     justify-content: space-between;
 }
 
-.score-button {
+button {
     font-family: 'Orbitron', sans-serif;
     color: #9AABD8;
     background: #1B244A;
@@ -69,13 +69,13 @@ h4 {
 }
 
 #new-game-button {
-    font-family: 'Orbitron', sans-serif;
-    color: #9AABD8;
-    background: #1B244A;
-    border: 1px solid #9AABD8;
-    border-radius: .25rem;
-    padding: .9rem;
+    font-weight: 700;
     width: 50%;
+}
+
+#new-game-button:hover, .score-button:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
 }
 
 .leader {
