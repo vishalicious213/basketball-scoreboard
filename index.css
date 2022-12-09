@@ -10,12 +10,21 @@ body {
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     background: #1B244A;
-    width: 575px;
-    height: 385px;
+    /* padding: 2rem; */
+    width: 36rem;
+    height: 25rem;
     border-radius: 1rem;
     border: 5px solid white;
+}
+
+#teams {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .score {
@@ -50,11 +59,21 @@ h4 {
     justify-content: space-between;
 }
 
-button {
+.score-button {
     font-family: 'Orbitron', sans-serif;
     color: #9AABD8;
     background: #1B244A;
     border: 1px solid #9AABD8;
     border-radius: .25rem;
     padding: .9rem;
+}
+
+#new-game-button {
+    font-family: 'Orbitron', sans-serif;
+    color: #9AABD8;
+    background: #1B244A;
+    border: 1px solid #9AABD8;
+    border-radius: .25rem;
+    padding: .9rem;
+    width: 50%;
 }
