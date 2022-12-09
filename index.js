@@ -42,4 +42,6 @@ function resetScore() {
     guestPoints = 0
     homeScore.textContent = homePoints
     guestScore.textContent = guestPoints
+    homeScore.classList.remove("leader")
+    guestScore.classList.remove("leader")
 }
