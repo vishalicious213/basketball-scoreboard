@@ -15,3 +15,10 @@ function addGuestScore(points) {
     guestPoints += points
     guestScore.textContent = guestPoints
 }
+
+function resetScore() {
+    homePoints = 0
+    guestPoints = 0
+    homeScore.textContent = homePoints
+    guestScore.textContent = guestPoints
+}
