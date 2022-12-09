@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&family=Shadows+Into+Light+Two&display=swap');
+
 body {
     margin: 0;
 }
@@ -13,6 +15,10 @@ body {
 .score {
     color: #F94F6D;
     background: #080001;
+    padding: .5rem 3rem;
+    border-radius: .5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
 }
 
 #home, #guest {
@@ -20,6 +26,14 @@ body {
 }
 
 h3 {
+    font-family: 'Verdana', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
     color: #EEEEEE;
+    margin-bottom: 1rem;
+}
 
+h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5rem;
 }
