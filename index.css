@@ -24,24 +24,18 @@ body {
 }
 
 .container {
-    /* outline: 1px solid red; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    /* background: #1B244A; */
-    width: 36rem;
-    height: 25rem;
-    /* border-radius: 1rem;
-    border: 5px solid white; */
-    opacity: .9;
+    width: 100%;
 }
 
 #teams {
-    /* outline: 1px solid orange; */
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
+    max-width: 800px;
+    margin-bottom: 3rem;
 }
 
 .score {
@@ -57,9 +51,11 @@ body {
 #home, #guest {
     text-align: center;
     background: #1B244A;
-    padding: 0 2rem 2rem;
+    padding: 0 3rem 2rem;
     border-radius: 1rem;
     border: 5px solid white;
+    box-sizing: border-box;
+    opacity: .8;
 }
 
 h3 {
@@ -91,12 +87,13 @@ button {
 
 #new-game-button {
     font-weight: 700;
-    width: 50%;
+    width: 20rem;
 }
 
 #new-game-button:hover, .score-button:hover {
     background-color: #9AABD8;
     color: #1B244A;
+    border: 1px solid #1B244A;
 }
 
 .leader {
