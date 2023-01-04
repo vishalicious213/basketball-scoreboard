@@ -8,17 +8,32 @@ body {
     align-items: center;
 }
 
+#background {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .7;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background: #1B244A;
-    /* padding: 2rem; */
     width: 36rem;
     height: 25rem;
     border-radius: 1rem;
     border: 5px solid white;
+    opacity: .9;
 }
 
 #teams {
