@@ -24,21 +24,23 @@ body {
 }
 
 .container {
+    /* outline: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background: #1B244A;
+    /* background: #1B244A; */
     width: 36rem;
     height: 25rem;
-    border-radius: 1rem;
-    border: 5px solid white;
+    /* border-radius: 1rem;
+    border: 5px solid white; */
     opacity: .9;
 }
 
 #teams {
+    /* outline: 1px solid orange; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -54,6 +56,10 @@ body {
 
 #home, #guest {
     text-align: center;
+    background: #1B244A;
+    padding: 0 2rem 2rem;
+    border-radius: 1rem;
+    border: 5px solid white;
 }
 
 h3 {
