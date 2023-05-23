@@ -1,6 +1,6 @@
 # Basketball Scoreboard
 
-This was a Scrimba project from Module 3 (Making Websites Responsive) of the [Frontend Developer Path](https://scrimba.com/learn/frontend) that I added onto with CSS customizations. The requirements were that we follow the provided design and make all six buttons work.
+This was a solo project from Module 3 (Making Websites Responsive) of Scrimba's [Frontend Developer Path](https://scrimba.com/learn/frontend) that I added onto with CSS customizations. The requirements were that we follow the provided design and make all six buttons work.
 
 Core requirements:
 
