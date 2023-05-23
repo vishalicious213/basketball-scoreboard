@@ -1,6 +1,8 @@
 # Basketball Scoreboard
 
-This was a Scrimba project that I added onto with CSS customizations. The requirements were that we follow the provided design and make all six buttons work.
+This was a Scrimba project from Module 3 (Making Websites Responsive) of the [Frontend Developer Path](https://scrimba.com/learn/frontend) that I added onto with CSS customizations. The requirements were that we follow the provided design and make all six buttons work.
+
+Core requirements:
 
 - scoreboard with "Home" and "Guest" scores
 - each score has buttons to increment that score by 1, 2 and 3 points
